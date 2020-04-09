@@ -3,18 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Gepard's documentation!
-==================================
+Gepard --- analysis of 3D quark and gluon distribution in nucleon
+=================================================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   about
+   visuals/visuals
+   grids/grids
+   data/data
+   docs/docs
+   papers
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
