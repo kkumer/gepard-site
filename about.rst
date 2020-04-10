@@ -11,7 +11,7 @@ This web site has manifold purpose:
    * Interface to datasets used in analyses: numerical and graphical
    * Documentation of the software
 
-The software itself is available from download at GitHub (well, not yet, it will be
-after documentation is written)
+The software itself is available for download at GitHub (well, not yet, it will be
+after some refactoring and after documentation is written)
 
 
