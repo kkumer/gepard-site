@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Gepard'
-copyright = '2020, Krešimir Kumerički'
+project = 'gepard'
+copyright = '2022, Krešimir Kumerički'
 author = 'Krešimir Kumerički'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = '0.9.8'
 
 
 # -- General configuration ---------------------------------------------------
@@ -33,7 +33,23 @@ release = '1.0'
 import sphinx_rtd_theme
 extensions = [
         'sphinx_rtd_theme',
+        'sphinx.ext.viewcode',   # Add links to source code
+        'sphinx.ext.autodoc',    # Include doc from Python docstrings
+        'sphinx.ext.napoleon',   # Pre-process NumPy/Google-style docstrings
+        'sphinx.ext.todo',       # Aggregate TODO's from documentation
+        'matplotlib.sphinxext.plot_directive',       # For inline plots
 ]
+
+todo_include_todos = True
+autoclas_content = 'both'
+autodoc_default_options = {
+        'members': True,
+        'member-order': 'bysource',
+        'undoc-members': False,
+        'private-members': True,
+        'special-members': '__init__',
+        'show-inheritance': True
+}
 
 def setup(app):
     app.add_stylesheet('my_theme.css')

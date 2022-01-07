@@ -1,20 +1,32 @@
-.. Gepard documentation master file, created by
-   sphinx-quickstart on Thu Apr  9 18:43:58 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. gepard web site master file
 
-Gepard --- analysis of 3D quark and gluon distribution in nucleon
-=================================================================
+
+.. image:: media/Gepard_logo.png
+      :width: 200px
+      :align: left
+      :alt: Gepard logo
+
+
+Tool for studying the 3D quark and gluon distributions in the nucleon
+=====================================================================
+
+
+Gepard is software for analysis of three-dimensional distribution of quarks and gluons in hadrons,
+encoded in terms of the so-called Generalized Parton Distributions (GPDs).
+
+This web site has manifold purpose:
+
+   * Documentation of the software
+   * Examples of the use of software
+   * Interface to various representations of results: numerical and graphical
+   * Interface to datasets used in analyses: numerical and graphical
+
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   about
-   visuals/visuals
-   grids/grids
-   data/data
-   docs/docs
+   docs/index
    papers
 
 
