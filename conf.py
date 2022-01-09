@@ -52,7 +52,7 @@ autodoc_default_options = {
 }
 
 def setup(app):
-    app.add_stylesheet('my_theme.css')
+    app.add_css_file('my_theme.css')
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

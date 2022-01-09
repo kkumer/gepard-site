@@ -27,6 +27,8 @@ This web site has manifold purpose:
    :caption: Contents:
 
    docs/index
-   papers
+   datasets
+   publications
+   credits
 
 
