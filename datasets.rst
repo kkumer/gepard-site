@@ -1,3 +1,5 @@
+.. _sec-data_sets:
+
 #########
 Data sets
 #########
