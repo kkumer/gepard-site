@@ -12,6 +12,9 @@ BUILDDIR      = /home/http/gpd/docs
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+publish:
+	scp -r /home/http/gpd/docs/* gepard.phy.hr:/var/www/
+
 .PHONY: help Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
