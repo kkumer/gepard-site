@@ -15,3 +15,11 @@ and then do
 make html
 ```
 in `gepard-site`.
+
+You can then do
+```
+make publish
+```
+to publish the pages on [gepard.phy.hr](https://gepard.phy.hr), if
+you have valid user account on that machine and write permission to
+``/var/www``.
