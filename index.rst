@@ -29,6 +29,7 @@ This web site has manifold purpose:
    docs/index
    datasets
    publications
+   server
    credits
 
 
