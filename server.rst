@@ -11,5 +11,5 @@ some models implemented in Gepard are served here in graphical and numerical for
 
 .. raw:: html
 
-      <iframe src="http://localhost:8050/" width="800" height="1600"></iframe>
+      <iframe src="https://gepard.phy.hr/alpha/" width="800" height="1600"></iframe>
 

@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'gepard'
-copyright = '2022, Krešimir Kumerički'
+copyright = '2022, 2023, Krešimir Kumerički'
 author = 'Krešimir Kumerički'
 
 # The full version, including alpha/beta/rc tags
-release = '0.9.9'
+release = '0.9.11'
 
 
 # -- General configuration ---------------------------------------------------
