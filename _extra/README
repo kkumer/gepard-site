@@ -1,2 +1,4 @@
 It seems that content of this dir I have to move to /var/www/html/
 by hand ... should be fixed in Makefile
+
+2023-08-25: No, make html and then make publish should work ...
