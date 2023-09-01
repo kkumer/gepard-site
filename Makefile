@@ -12,8 +12,9 @@ BUILDDIR      = /home/http/gpd/docs
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+# Only if you have account and write permission on gepard.phy.hr
 publish:
-	scp -r /home/http/gpd/docs/* gepard.phy.hr:/var/www/
+	scp -P 2268 -r /home/http/gpd/docs/* gepard.phy.hr:/var/www/
 
 .PHONY: help Makefile
 
