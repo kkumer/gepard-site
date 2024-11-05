@@ -55,4 +55,65 @@ extracted from the subset of the above data, so strictly it is not statistically
 
 
 
+H1
+--
 
+Adloff:2001cn `hep-ex/0107005 <http://arXiv.org/abs/hep-ex/0107005>`_
+.....................................................................
+
+This data is not used because it is contained withing the next
+item Aktas:2005ty.
+
+
+Aktas:2005ty `hep-ex/0505061 <http://arXiv.org/abs/hep-ex/0505061>`_
+....................................................................
+
+
+.. code-block:: python
+
+   >>> g.list_data([39, 43, 44])
+   [ 39]       H1   8    XGAMMA    0505061 Table 1
+   [ 43]       H1   9    XGAMMA    0505061 Table 3
+   [ 44]       H1   6    XGAMMA    0505061 Table 2   
+
+We take Table 1 (cross section differential in t), with separate 4 points for
+1996-1997 and 4 points for 1999-2000 data. Tables 2 and 3 are total cross
+section from same events in dependence on Q2 and W, respectively.
+
+
+Aaron:2007ab `arXiv:0709.4114 <http://arXiv.org/abs/0709.4114>`_
+................................................................
+
+
+.. code-block:: python
+
+   >>> g.list_data([36, 37, 38, 40, 41, 42])
+   [ 36]       H1  12    XGAMMA  0709.4114 Table 3 - upper half
+   [ 37]       H1  12    XGAMMA  0709.4114 Table 3 - lower half
+   [ 38]       H1  24    XGAMMA  0709.4114 Table 4
+   [ 40]       H1   5    XGAMMA  0709.4114 Table 1 - right
+   [ 41]       H1  15    XGAMMA  0709.4114 Table 2
+   [ 42]       H1   4    XGAMMA  0709.4114 Table 1 - left
+
+This data is not used because it is contained withing the next
+item Aaron:2009ac.
+
+
+Aaron:2009ac `arXiv:0907.5289 <http://arXiv.org/abs/0907.5289>`_
+................................................................
+
+
+.. code-block:: python
+
+   >>> g.list_data([60, 61, 62, 63, 64])
+   [ 60]       H1   4    XGAMMA  0907.5289 Table 1a
+   [ 61]       H1   5    XGAMMA  0907.5289 Table 1b
+   [ 62]       H1  15    XGAMMA  0907.5289 Table 2
+   [ 63]       H1  12    XGAMMA  0907.5289 Table 3a
+   [ 64]       H1  12    XGAMMA  0907.5289 Table 3b
+
+We use Table 3a which is differential DVCS cross section binned in t and Q2.
+
+.. todo::
+
+   Create dataset from BCA data from Table 4 of this reference.
