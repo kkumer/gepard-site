@@ -31,7 +31,8 @@ version of Gepard:
 
    * M. Čuić, G. Duplančić, K. Kumerički, and K. Passek-K.,
      *NLO corrections to the deeply virtual meson production revisited: impact on the extraction of generalized parton distributions,*
-     (2023), arXiv:`2310.13837 <https://arxiv.org/abs/2310.13837>`_
+     JHEP *12* (2023) 192; Erratum: JHEP *02* (2024) 225,
+     arXiv:`2310.13837 <https://arxiv.org/abs/2310.13837>`_
      [Code at `github <https://github.com/openhep/nloimpact23>`__]
 
 Code runs only with old versions Gepard package
