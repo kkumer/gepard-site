@@ -25,9 +25,10 @@ Development of Gepard was supported by the following projects:
    * *The strong interaction at the frontier of knowledge: fundamental research and applications*
      (`STRONG-2020 <http://www.strong-2020.eu/>`_),
      funded by European Union’s Horizon 2020 research and innovation programme under 
-     the grant agreement No. 824093
+     the grant agreement No. 824093.
    * *Revealing the hadron structure through hard exclusive processes*
      (`REVESTRUCTURE <http://thphys.irb.hr/projects/REVESTRUCTURE/>`_),
      funded by Croatian Science Foundation under the project number IP-2019-04-9709.
+   * *International visiting grant (2023)* funded by the Chinese Academy of Sciences.
 
 
